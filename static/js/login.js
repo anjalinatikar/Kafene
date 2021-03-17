@@ -17,7 +17,7 @@ document.getElementById("loginBtn").addEventListener("click", function (e) {
                 password: password
             },
             success: (success) => {
-                localStorage.setItem('isLoggedIn' , true)
+                localStorage.setItem('isLoggedIn', true)
                 alert('Login Successfull')
                 window.location.href = './orders.html'
             }
